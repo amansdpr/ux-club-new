@@ -417,8 +417,9 @@ a:hover .sbmenu-item {
 
 /* hero css */
 .hero-area {
-    padding-top: 110px;
-    padding-bottom: 75px;
+    padding-top: 100px;
+    padding-bottom: 67px;
+    max-height: 300px;
 }
 
 .hero-area .title {
