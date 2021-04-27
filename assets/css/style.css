@@ -2803,7 +2803,7 @@ section.login-area {
 
 .popup-login-modal .form-bottom {
     margin-top: -15px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .modal label a {
@@ -3153,6 +3153,7 @@ body.inner-page {
     div .user-content {
         margin: 0px auto;
         min-height: auto;
+        margin-bottom: 50px;
     }
     div .tab-content .tab-pane {
         min-height: auto;
@@ -3221,9 +3222,6 @@ body.inner-page {
     .navigation__button {
         position: relative;
         z-index: 99;
-    }
-    .fb-button.yt-btn i {
-        color: #ff0000;
     }
 }
 
@@ -3509,4 +3507,13 @@ section.course-video.course-inner-page .tab-content .single-video-left { padding
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+i.icofont-facebook {
+    font-size: 22px;
+}
+section.login-area.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }

@@ -342,7 +342,7 @@
     }
 
     .for-loginmethod.payment-option .modal.fade .modal-dialog {
-        transform: translate(0, 5px);
+        transform: translate(0, -10px);
     }
 
     .accordion.course .btn.btn-link {
@@ -355,6 +355,9 @@
 }
 
 @media (max-width: 500px) {
+    .container-label {
+        font-size: 12px;
+    }
     .for-loginmethod.payment-option .modal-dialog {
         width: 350px;
         max-width: 350px;
@@ -474,9 +477,6 @@
 
 @media (max-width: 390px) {
 
-    .container-label {
-        font-size: 14px;
-    }
     .newslater-form button {
         padding: 10px 20px;
     }
@@ -497,6 +497,9 @@
 
 }
 @media (max-width: 375px) {
+    label.container-label {
+        font-size: 10px;
+    }
     footer.footer-area {
         zoom: 0.7;
     }
