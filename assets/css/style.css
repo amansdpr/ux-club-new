@@ -3392,6 +3392,9 @@ section.course-video.course-inner-page .tab-content .single-video-left { padding
     .hidden-pc {
         display: none;
     }
+    .blog-area .row > div {
+        margin-bottom: 4px;
+    }
 }
 .btn:focus {
     box-shadow: none !important;
