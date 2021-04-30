@@ -2559,6 +2559,8 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
 .submit-btn {
     margin-top: 20px;
     font-weight: 600;
+    border: none;
+    width: 100%;
 }
 
 .submit-btn:hover {
@@ -3393,7 +3395,7 @@ section.course-video.course-inner-page .tab-content .single-video-left { padding
         display: none;
     }
     .blog-area .row > div {
-        margin-bottom: 4px;
+        margin-bottom: 3px;
     }
 }
 .btn:focus {
