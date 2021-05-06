@@ -453,7 +453,8 @@ a:hover .sbmenu-item {
 
 /* single couse  */
 
-.courses-area {
+.courses-area,
+.blog-post-area {
     padding-top: 60px;
     background: #F6F6F6;
 }
@@ -3523,4 +3524,76 @@ section.login-area.register {
     height: 100vh;
     display: flex;
     align-items: center;
+}
+
+
+/* Blog Page css */
+
+/*blog header*/
+.page-header-area {
+    background-color: #4e1d52;
+    padding: 60px 0;
+}
+@media (max-width: 767px) { .page-header-area { padding: 40px 0;} }
+.page-header-area h1 {
+    font-size: 65px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 65px;
+}
+@media (max-width: 991px) { .page-header-area h1 { font-size: 45px; line-height: 45px;} }
+@media (max-width: 767px) { .page-header-area h1 { font-size: 30px; line-height: 30px;} }
+@media (max-width: 434px) { .page-header-area h1 { font-size: 28px; line-height: 28px;} }
+@media (max-width: 375px) { .page-header-area h1 { font-size: 22px; line-height: 22px;} }
+.tags-links {
+    margin-top: 30px;
+}
+.tags-links a {
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    margin-right: 17px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+.tags-links a:hover {
+    background: #E30045;
+    border: 1px solid #E30045;
+}
+
+@media (max-width: 991px) { .tags-links a { font-size: 20px; } }
+@media (max-width: 767px) { .tags-links a { font-size: 18px; margin-right: 10px;} }
+@media (max-width: 434px) { .tags-links a { font-size: 16px; } }
+@media (max-width: 375px) { .tags-links a { font-size: 14px; } }
+
+
+
+
+
+
+
+/*blog content*/
+.blog-post-box {
+    padding: 20px;
+}
+.blog-post-box .course-img {
+    height: auto;
+    margin: -20px;
+    margin-bottom: 0;
+}
+.blog-post-box .meta-tag {
+    margin-top: 15px;
+    margin-bottom: -7px;
+}
+.blog-post-box .meta-tag a {
+    color: #fff;
+    padding: 5px 15px;
+    background: #969696;
+    border-radius: 50px;
+    display: inline-block;
+}
+.blog-post-box:hover .meta-tag a {
+    background: #E30045;
 }
