@@ -453,8 +453,7 @@ a:hover .sbmenu-item {
 
 /* single couse  */
 
-.courses-area,
-.blog-post-area {
+.courses-area {
     padding-top: 60px;
     background: #F6F6F6;
 }
@@ -3571,10 +3570,11 @@ section.login-area.register {
 
 
 
-
-
-
 /*blog content*/
+.blog-post-area {
+    padding-top: 60px;
+    background-color: #eaeaea;
+}
 .blog-post-box {
     padding: 20px;
 }
