@@ -3623,6 +3623,27 @@ section.login-area.register {
 }
 
 .author-meta {}
+.d-flex .author-meta {
+    width: 150px;
+    text-align: center;
+    padding-top: 35px;
+}
+.d-flex .single-post-content {
+    flex: 1;
+    padding-left: 20px;
+}
+@media (max-width: 767px) {
+    .single-post-content-area.d-flex {
+        display: block !important;
+    }
+    .d-flex .author-meta {
+        padding-top: 15px;
+    }    
+    .d-flex .single-post-content {
+        flex: 1;
+        padding-left: 0px;
+    }
+}
 .author-meta img {
     min-width: 100px;
 }
@@ -3674,7 +3695,7 @@ p.img-caption {
     font-weight: 900;
 }
 h3.side-title {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 30px;
     border-bottom: 1px solid #acacac;
     padding-bottom: 10px;
