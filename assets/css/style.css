@@ -3814,7 +3814,7 @@ a.btn.paynowbtn {
     transition: 100ms;
 }
 a.btn.paynowbtn:hover {
-    background-color: #9C0333;
+    background-color: #E30045;
 }
 a.btn.paynowbtn img {
     transform: translate(30px, -3px);
@@ -3837,7 +3837,7 @@ a.btn.paynowbtn img {
 }
 .pay-modal .afterpayinfo a:hover ,
 .pay-modal .call-usw a:hover {
-    color: #9C0333;
+    color: #E30045;
 }
 .pay-modal .call-usw {
     margin-bottom: 25px;
