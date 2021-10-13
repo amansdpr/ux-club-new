@@ -3941,3 +3941,54 @@ section.trainning-area.team-section {
 .team-item .content p {
     line-height: 18px;
 }
+.hero-area.about-page .container {
+    z-index: 6;
+}
+
+
+/* Inspiration page css */
+.inspiration-page.hero-area {
+    background: #2a2d36;
+    max-height: fit-content;
+}
+.hero-area.inspiration-page {
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+.inspiration-page.hero-area .title {
+    font-size: 70px;
+}
+.inspiration-page.hero-area .grey-text {
+    color: #6a6c74;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* protfolio-nav */
+.protfolio-nav {
+    margin-top: 30px;
+}
+.protfolio-nav a {
+    background: #55575e;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin: 5px;
+    font-size: 22px;
+    display: inline-block;
+}
+.protfolio-nav a.active,
+.protfolio-nav a:hover {
+    background-color: #e30045;
+}
+
+.portfolio-section {
+    padding: 50px 0 20px 0;
+}
+.port-items-row > div {
+    margin-bottom: 30px;
+}
+.port-items-row img {
+    width: 100%;
+}

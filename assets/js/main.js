@@ -20,6 +20,9 @@
       // Activate lightcase
       $('a[data-rel^=lightcase]').lightcase();
 
+
+
+
     // background image
     function background() {
             var img=$('.bg_img');
