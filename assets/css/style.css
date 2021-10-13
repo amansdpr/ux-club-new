@@ -3814,7 +3814,7 @@ a.btn.paynowbtn {
     transition: 100ms;
 }
 a.btn.paynowbtn:hover {
-    background-color: #E30045;
+    background-color: #9C0333;
 }
 a.btn.paynowbtn img {
     transform: translate(30px, -3px);
@@ -3837,7 +3837,7 @@ a.btn.paynowbtn img {
 }
 .pay-modal .afterpayinfo a:hover ,
 .pay-modal .call-usw a:hover {
-    color: #E30045;
+    color: #9C0333;
 }
 .pay-modal .call-usw {
     margin-bottom: 25px;
@@ -3883,4 +3883,61 @@ a.btn.paynowbtn img {
     .pay-modal .modal-content {
         margin-top: 30px;
     }
+}
+
+
+
+
+/* New Css Added 13-oct-2021
+--------------------------------------------------------------- */
+.courses-area .section-heading h2 {
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+section.easy-courses {
+    padding: 50px 0px 0px 0px;
+    background: #f6f6f6;
+}
+section.courses-area.pb-60 {
+    padding-top: 50px;
+}
+.easy-courses .course-img {
+    margin: -25px;
+    border-radius: 8px;
+}
+
+
+/* Team Section */
+section.trainning-area.team-section {
+    background: #d9dadb;
+}
+.team-section .section-title .title {
+    font-size: 30px;
+    color: #2A2D36;
+    font-weight: bold;
+}
+.single-trainning-item.team-item {
+    border-radius: 15px;
+}
+.team-item .trainning-img {
+    height: auto;
+}
+.team-item .trainning-img:before {
+    display: none;
+}
+.team-item .content .title {
+    font-size: 22px;
+}
+.team-item  .content {
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    z-index: 2;
+    line-height: 25px;
+    border-left: 7px solid #e30045;
+    padding-left: 20px;
+}
+.team-item .content p {
+    line-height: 18px;
 }

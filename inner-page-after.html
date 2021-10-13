@@ -148,9 +148,10 @@
                             </ul>
                         </div>
                         <div class="sideicon">
-                            <div class="menu-btn">
-                                <div class="menu-btn__burger"></div>
-                            </div>
+                            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+                            <label for="navi-toggle" class="navigation__button">
+                                <span class="navigation__icon">&nbsp;</span>
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -164,7 +165,6 @@
         </div>
     </header>
     <!-- header area end -->
-
 
     <!-- hamburger menu start -->
     <div class="hamburger-menu">
@@ -189,127 +189,12 @@
         </div>
     </div>
     <!-- hamburger menu end -->
-
+    
 
     <!-- popup area start -->
     <div class="for-loginmethod payment-option">
         <!-- Modal -->
-        <div class="modal pay-modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i class="icofont-close"></i></span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="log-inpagess">
-                            <div class="login-content next-h4">
-                                <div class="row">
-                                    <div class="col">
-                                        <h2 class="title">Pay the Course fee</h2>
-                                        <div class="notice-box payment d-flex">
-                                            <div class="thumb-img">
-                                                <img src="assets/images/mega-m1.jpg" alt="">
-                                            </div>
-                                            <div class="coursinf">
-                                                <h5>Become a professional graphic designer</h5>
-                                                <p><i class="fa fa-info-circle"></i> Project based training</p>
-                                                <h4 class="price">
-                                                    <span class="del-txt"><i class="icofont-taka"></i> 1,700</span>
-                                                    <span><i class="icofont-taka"></i> 1,700</span>
-                                                </h4>
-                                            </div>
-                                        </div>
-
-                                        <div class="d-flex pay-with-options  align-items-center justify-content-center">
-                                            <div><p>Pay with</p></div>
-                                            <div class="d-flex align-items-center">
-                                                <img src="assets/images/icons/card_icon.png" alt="">
-                                                <p>Cards</p>
-                                            </div>
-                                            <div class="d-flex align-items-center">
-                                                <img src="assets/images/icons/Mobile_Banking_icon.png" alt="">
-                                                <p>Mobile Banking</p>
-                                            </div>
-                                            <div class="d-flex align-items-center">
-                                                <img src="assets/images/icons/Net_banking_icon.png" alt="">
-                                                <p>Net Banking</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="text-center">
-                                            <a href="" class="btn paynowbtn">
-                                                PAY NOW
-                                                <img src="assets/images/icons/Arrow_icon .png" alt="">
-                                            </a>
-                                        </div>
-
-                                        <div class="afterpayinfo text-center">
-                                            <p>পেমেন্ট করার পর আপনার একাউন্টে কোর্সটি যোগ হয়ে যাবে। <br> 
-                                            আপনার প্রফাইল/একাউন্টে MY COURSE এ গিয়ে কোর্সটি শেখা শুরু করুন। <br>
-                                            কিভাবে নিরাপদে পেমেন্ট করবেন তা জানতে 
-                                            <a href="#"><i class="fa fa-play-circle"></i>  ভিডিওটি দেখুন</a></p>
-                                        </div>
-                                        
-                                        <div class="call-usw">
-                                            <p>যে কোন প্রয়োজনে এই নাম্বারে কল করুন <a href="tel:01743 196 240">01743 196 240</a> আমাদের সহযোগিতা নিন। (10AM - 12PM)</p>
-                                        </div>
-                                        <!-- <a  href="#" data-toggle="modal" data-target="#popup-success" disabled>Success Modal</a> -->
-                                    </div>
-                                    <!-- <div class="col tshirt-img my-auto">
-                                        <img src="assets/images/offer.png" alt="">
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- Modal -->
-    </div>
-
-
-    <!-- POP UP SUCCESS Modal Start -->
-    <div class="for-loginmethod payment-option account-detials popup-success">
-        <!-- Modal -->
-        <div class="modal fade" id="popup-success" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i class="icofont-close"></i></span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="log-inpagess">
-                            <div class="success-modal-content text-center p-5">
-                                <img src="assets/images/success-bell.png" alt="">
-                                <h3>Thanks you!</h3>
-                                <h4>Your submission has been received</h4>
-                                <p>পেমেন্টটি নিশ্চিত হলে কিচ্ছুক্ষনের মধ্যেই এই <b>কোর্সটি</b> আপনার <b>Dashboard</b> এ যুক্ত হয়ে যাবে। <br> এবং আপনি নিজের একাউন্টে <b>Login</b>  করে শিখতে শুরু করুণ।</p>
-                                <p><i class="fa fa-info-circle"></i> যে কোন অসুবিধায় আমাদের সাপোর্ট নাম্বারে কল করুণ*</p>
-                                <a href="" class="btn btn-lg btn-dark-grey">Got it</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal -->
-    </div>
-    <!-- POP UP SUCCESS Modal End -->
-
-
-    <!-- POP UP Login Form Modal Start -->
-    <div class="for-loginmethod payment-option account-detials popup-login-modal">
-        <!-- Modal -->
-        <div class="modal fade" id="login-modal-form" tabindex="-1" role="dialog"
+        <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -323,31 +208,64 @@
                             <div class="login-content next-h4">
                                 <div class="row">
                                     <div class="col">
-                                        <div class="pop-up-sign-up-image">
-                                            <img src="assets/images/popup-login-form-img.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col" style="display: flex; align-items: center;">
-                                        <div class="loginforms1 account-details" style="flex:1;">
-                                            <h2 class="title">Login to start learning</h2>
-                                            <div class="form-bottom">
-                                                <p>New User? <a href="login.html" class="join">Join Now</a></p>
+                                        <div class="notice-box payment">
+                                            <h2 class="title">Pay the Course fee*</h2>
+                                            <p>Professional Graphic Design</p>
+                                            <div class="price">
+                                                <span><i class="icofont-taka"></i> 1500</span>
                                             </div>
-                                            <form action="">
-                                                <div class="login-us">
-                                                    <div class="form-group">
-                                                        <input type="email" name="email" placeholder="Email">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="password" name="password" placeholder="Password">
-                                                    </div>
-                                                    <a href="#" class="submit-btn">Login</a>
-                                                    <div class="form-bottom">
-                                                        <label for=""><a href="#">Forgot Password?</a></label>
-                                                    </div>
+                                        </div>
+                                        <div class="loginforms1">
+                                            <div class="payment-gatway">
+                                                <div class="rocket-by">
+                                                    <p>Pay course fee* via
+                                                        <a href="#" class="bkashh1 active">bKash</a>
+                                                        or
+                                                        <a href="#" class="rocketts">Rocket</a>
+                                                    </p>
                                                 </div>
-                                            </form>
+                                                <div class="login-us trxid bkash active">
+                                                    <form action="">
+                                                        <lable for="bkash">
+                                                            <img src="assets/images/bkash.png" alt="">
+                                                        </lable>
+                                                        <span class="trans-text">Confirm with the <span>TrxID</span>
+                                                            after making the
+                                                            payment</span>
+                                                        <div class="try-thisfield got red-submit">
+                                                            <input type="text" name="bkash" placeholder="Enter TrxID :">
+
+                                                            <button type="submit" class="logs1">Submit</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="login-us trxid rocket">
+                                                    <form action="">
+                                                        <lable for="rocket"><img src="assets/images/rocketss.png" alt="">
+                                                        </lable>
+                                                        <span class="trans-text">Confirm with the TrxID after making
+                                                            the
+                                                            payment</span>
+                                                        <div class="try-thisfield got red-submit">
+                                                            <input type="text" name="rocket" placeholder="Enter TrxID :">
+
+                                                            <button type="submit" class="logs1">Submit</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div class="repare-pass">
+                                            <div class="log-into">
+                                                <div class="call-usw">
+                                                    <p>Call for Help : <a href="tel:01743 196 240">01743
+                                                            196 240</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col tshirt-img my-auto">
+                                        <img src="assets/images/offer.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -358,13 +276,7 @@
         </div>
         <!-- Modal -->
     </div>
-    <!-- POP UP Login Form Modal End -->
 
-
-
-
-
-    <!-- PopUP Sign Up Form -->
     <div class="for-loginmethod payment-option account-detials">
         <!-- Modal -->
         <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
@@ -381,41 +293,66 @@
                             <div class="login-content next-h4">
                                 <div class="row">
                                     <div class="col">
-                                        <div class="pop-up-sign-up-image">
-                                            <img src="assets/images/popup-sign-up-form-img.jpg" alt="">
+                                        <div class="single-course">
+                                            <div class="course-img">
+                                                <img src="assets/images/course-2.jpg" alt="Course 1">
+                                            </div>
+                                            <h4 class="title">Executive Design Course</h4>
+                                            <p>Learn CV Design, Pitch deck Design,
+                                                Infographic and more</p>
+                                            <span class="course-meta">
+                                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
+                                                Class with Project
+                                            </span>
+                                        </div>
+                                        <div class="notice-box">
+                                            <h4 class="title"><i class="icofont-exclamation-circle"></i> You want to
+                                                take this course</h4>
+                                            <p>Please continue with your details so that you will
+                                                <span>create an account</span> and start learning</p>
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="loginforms1 account-details">
-                                            <h2 class="title">Create your Account</h2>
+                                            <h2 class="title">Your Details</h2>
                                             <form action="">
                                                 <div class="login-us">
                                                     <div class="form-group">
-                                                        <input type="text" name="firstname" placeholder=" ">
-                                                        <label for="firstname">Your Name</label>
+                                                        <input type="text" name="firstname" placeholder="First Name">
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="email" name="email" placeholder=" ">
-                                                        <label for="email">Email</label>
+                                                        <input type="text" name="lastname" placeholder="Last Name">
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="tel" name="phone" placeholder=" ">
-                                                        <label for="phone">Phone</label>
+                                                        <input type="email" name="email" placeholder="Email">
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="password" name="password" placeholder=" ">
-                                                        <label for="password">Create Password</label>
+                                                        <input type="tel" placeholder="Phone">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <select name="subject">
+                                                            <option data-display="Occupation">Occupation</option>
+                                                            <option value="1">Student</option>
+                                                            <option value="2">Freelancer </option>
+                                                            <option value="3">Employed </option>
+                                                            <option value="4">Business </option>
+                                                            <option value="5">Other </option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="password" name="password" placeholder="Password">
                                                     </div>
                                                     <div class="form-grou">
-                                                        <label class="container-label">I agree to UX Club <a href="#">Terms and Conditions*</a>
+                                                        <label class="container-label">I agree to UX Club <a href="#">Terms
+                                                                and
+                                                                Conditions*</a>
                                                             <input type="checkbox">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                     </div>
-                                                    <a href="#" class="submit-btn">Sign Up</a>
-                                                    <div class="form-bottom">
-                                                        <p><label style="font-size: 16px;">Already have an account? <a href="login.html" class="join" data-toggle="modal" data-target="#login-modal-form">Login</a></label></p>
-                                                    </div>
+                                                    <a href="#" class="submit-btn" data-toggle="modal"
+                                                        data-target="#exampleModalCenter3" data-dismiss="modal"
+                                                        aria-label="Close">Continue</a>
                                                 </div>
                                             </form>
                                         </div>
@@ -430,7 +367,6 @@
         <!-- Modal -->
     </div>
     <!-- popup area end -->
-
 
     <!-- inner course preview start -->
     <section class="inner-course-preview">
@@ -459,7 +395,8 @@
                                 <li><i class="icofont-badge"></i> Includes certificate on this course</li>
                                 <li><i class="icofont-tag"></i> Fee Tk. 3000</li>
                             </ul>
-                            <a href="#" class="site-btn course" data-toggle="modal" data-target="#exampleModalCenter4">Start Learning</a>
+                            <a href="#" class="site-btn course" data-toggle="modal"
+                                data-target="#exampleModalCenter3">Get full Course</a>
                         </div>
                     </div>
                 </div>
@@ -472,8 +409,184 @@
     <section class="course-video">
         <div class="container">
             <div class="row">
-
-                <div class="col-lg-4 order-lg-2 faqs">
+                <div class="col-lg-8">
+                    <div class="course-video-content">
+                        <div class="course-video-top">
+                            <h4>UI Design Master Course</h4>
+                            <span>22 Video Class</span>
+                        </div>
+                        <div class="panel-group accordion course" id="accordion" role="tablist"
+                            aria-multiselectable="true">
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingOne">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseOne"
+                                            aria-expanded="true" aria-controls="curseOne">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="curseOne" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingOne">
+                                    <div class="card-body">
+                                        <div class="course-videos">
+                                            <div class="single-videos">
+                                                <div class="single-video-left">
+                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
+                                                    <div class="content">
+                                                        <a href="#">
+                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
+                                                                UI Design</h5>
+                                                        </a>
+                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
+                                                            5:07min</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="single-videos">
+                                                <div class="single-video-left">
+                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
+                                                    <div class="content">
+                                                        <a href="#">
+                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
+                                                                UI Design</h5>
+                                                        </a>
+                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
+                                                            5:07min</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="single-videos">
+                                                <div class="single-video-left">
+                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
+                                                    <div class="content">
+                                                        <a href="#">
+                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
+                                                                UI Design</h5>
+                                                        </a>
+                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
+                                                            5:07min</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="single-videos">
+                                                <div class="single-video-left">
+                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
+                                                    <div class="content">
+                                                        <a href="#">
+                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
+                                                                UI Design</h5>
+                                                        </a>
+                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
+                                                            5:07min</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingTwo">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseTwo"
+                                            aria-expanded="true" aria-controls="curseTwo">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="curseTwo" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingTwo">
+                                    <div class="card-body">
+                                        <div class="course-videos">
+                                            <div class="single-videos">
+                                                <div class="single-video-left">
+                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
+                                                    <div class="content">
+                                                        <a href="#">
+                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
+                                                                UI Design</h5>
+                                                        </a>
+                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
+                                                            5:07min</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingThree">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseThree"
+                                            aria-expanded="true" aria-controls="curseThree">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="curseThree" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingThree">
+                                    <div class="card-body">
+                                        <div class="course-videos">
+                                            <div class="single-videos">
+                                                <div class="single-video-left">
+                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
+                                                    <div class="content">
+                                                        <a href="#">
+                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
+                                                                UI Design</h5>
+                                                        </a>
+                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
+                                                            5:07min</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingFour">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseFour"
+                                            aria-expanded="true" aria-controls="curseFour">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="curseFour" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingFour">
+                                    <div class="card-body">
+                                        <div class="course-videos">
+                                            <div class="single-videos">
+                                                <div class="single-video-left">
+                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
+                                                    <div class="content">
+                                                        <a href="#">
+                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
+                                                                UI Design</h5>
+                                                        </a>
+                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
+                                                            5:07min</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 faqs">
                     <h4 class="title">Faq</h4>
                     <div class="accordion faqs" id="accordionExample">
                         <div class="card">
@@ -539,223 +652,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-8 order-lg-1">
-                    <div class="course-video-content">
-                        <div class="course-video-top">
-                            <h4>Course contents</h4>
-                            <span>22 Video Class in Bangla</span>
-                        </div>
-                        <div class="panel-group accordion course" id="accordion" role="tablist"
-                            aria-multiselectable="true">
-                            <div class="panel panel-default card">
-                                <div class="panel-heading" role="tab" id="coursHeadingOne">
-                                    <h4 class="panel-title subtitle">
-                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseOne"
-                                            aria-expanded="true"
-                                            aria-controls="curseOne">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="curseOne" class="panel-collapse collapse in show" role="tabpanel"
-                                    aria-labelledby="coursHeadingOne">
-                                    <div class="card-body">
-                                        <div class="course-videos">
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3"><i class="icofont-lock"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3"><i class="icofont-lock"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3"><i class="icofont-lock"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3"><i class="icofont-lock"></i></a>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default card">
-                                <div class="panel-heading" role="tab" id="coursHeadingTwo">
-                                    <h4 class="panel-title subtitle">
-                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseTwo"
-                                            aria-expanded="true"
-                                            aria-controls="curseTwo">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="curseTwo" class="panel-collapse collapse in show" role="tabpanel"
-                                    aria-labelledby="coursHeadingTwo">
-                                    <div class="card-body">
-                                        <div class="course-videos">
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3"><i class="icofont-lock"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default card">
-                                <div class="panel-heading" role="tab" id="coursHeadingThree">
-                                    <h4 class="panel-title subtitle">
-                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseThree"
-                                            aria-expanded="true"
-                                            aria-controls="curseThree">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="curseThree" class="panel-collapse collapse in show" role="tabpanel"
-                                    aria-labelledby="coursHeadingThree">
-                                    <div class="card-body">
-                                        <div class="course-videos">
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3"><i class="icofont-lock"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default card">
-                                <div class="panel-heading" role="tab" id="coursHeadingFour">
-                                    <h4 class="panel-title subtitle">
-                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseFour"
-                                            aria-expanded="true"
-                                            aria-controls="curseFour">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="curseFour" class="panel-collapse collapse in show" role="tabpanel"
-                                    aria-labelledby="coursHeadingFour">
-                                    <div class="card-body">
-                                        <div class="course-videos">
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3"><i class="icofont-lock"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Call To Action -->
-                    <div class="call-to-action d-flex align-items-center justify-content-between">
-                        <div>
-                            <h3>Get the full course</h3>
-                            <h4>ভাল ক্যারিয়ারের জন্য এখনি কোর্সটি শুরু করুন</h4>
-                        </div>
-                        <a href="#" class="site-btn course">Start Learning</a>
-                    </div>  
-
-                </div>
-
-
             </div>
         </div>
     </section>
@@ -774,22 +670,18 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="related-course-carousel owl-carousel">
-
-                        <!-- New Style full box clickable like in home page. Please use this course style inside loop -->
                         <div class="single-course">
-                            <a href="inner-page-before.html">&nbsp;</a>
                             <div class="course-img">
                                 <img src="assets/images/course-2.jpg" alt="Course 1">
                             </div>
-                            <h4 class="title">Learn Graphic Design</h4>
-                            <p>Project based web templete design, with Industry expert mentor</p>
+                            <h4 class="title">Executive Design Course</h4>
+                            <p>Learn CV Design, Pitch deck Design,
+                                Infographic and more</p>
                             <span class="course-meta">
                                 <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
                                 Class with Project
                             </span>
                         </div>
-                        <!-- New Style full box clickable like in home page. Please use this course style inside loop -->
-
                         <div class="single-course">
                             <div class="course-img">
                                 <img src="assets/images/course-3.jpg" alt="Course 1">
