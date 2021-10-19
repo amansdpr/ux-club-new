@@ -129,6 +129,18 @@
         }
     });
 
+    // Activate owlCarousel
+    $('.review-carousel').owlCarousel({
+        items: 1,
+        loop: false,
+        margin: 5,
+        stagePadding: 30,
+        smartSpeed: 800,
+        nav: true,
+        dots: true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+    });
+
     // menu options custom affix
     var fixed_top = $(".header-area");
     $(window).on("scroll", function () {
