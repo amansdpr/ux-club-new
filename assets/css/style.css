@@ -3992,3 +3992,63 @@ section.trainning-area.team-section {
 .port-items-row img {
     width: 100%;
 }
+
+
+
+
+/* New Css Added 19-oct-2021
+--------------------------------------------------------------- */
+li.has-submenu::after {
+    cursor: pointer;
+}
+.mainmenu  .h4 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #424242;
+    line-height: 24px;
+}
+.mainmenu  .p {
+    font-size: 16px;
+    color: #424242;
+    line-height: 16px;
+}
+.mainmenu a.mega-mitem {
+    text-align: center;
+    padding: 55px 20px;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+a.mega-mitem:hover {
+    background: #e0f9f4;
+}
+a.mega-mitem img,
+a.mega-mitem span {
+    display: block;
+}
+a.mega-mitem img {
+    margin: 0px auto 40px;
+}
+
+
+.mega-menu .row div:nth-child(1) .mega-mitem:hover { background: #fcf5e0; }
+.mega-menu .row div:nth-child(2) .mega-mitem:hover { background: #ddf0fc; }
+.mega-menu .row div:nth-child(3) .mega-mitem:hover { background: #e0f9f4; }
+.mega-menu .row div:nth-child(4) .mega-mitem:hover { background: #fdeee6; }
+
+
+.mega-menu.second-style .row div:nth-child(1) .mega-mitem { background: #fcf5e0; }
+.mega-menu.second-style .row div:nth-child(2) .mega-mitem { background: #ddf0fc; }
+.mega-menu.second-style .row div:nth-child(3) .mega-mitem { background: #e0f9f4; }
+.mega-menu.second-style .row div:nth-child(4) .mega-mitem { background: #fdeee6; }
+
+.mega-menu.second-style .mega-mitem { position: relative; }
+.mega-menu.second-style .mega-mitem:before {
+    position: absolute; content: ''; left:0;right:0;bottom:0; height: 0px; transition: 150ms;
+}
+.mega-menu.second-style .mega-mitem:hover:before { height: 8px; }
+
+.mega-menu.second-style .row div:nth-child(1) .mega-mitem:hover:before { background: #fab400; }
+.mega-menu.second-style .row div:nth-child(2) .mega-mitem:hover:before { background: #29ace5; }
+.mega-menu.second-style .row div:nth-child(3) .mega-mitem:hover:before { background: #3b9e8a; }
+.mega-menu.second-style .row div:nth-child(4) .mega-mitem:hover:before { background: #da7241; }
