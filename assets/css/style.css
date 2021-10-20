@@ -4186,6 +4186,14 @@ a.mega-mitem img {
     line-height: 30px;
     margin-bottom: 30px;
 }
+.support-tab .tab-content li {
+    color: #505050;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    list-style-type: disc;
+}
 .call-us {
     font-size: 18px;
     font-weight: 700;
