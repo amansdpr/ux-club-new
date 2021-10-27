@@ -168,4 +168,9 @@
         }, 200);
     });
 
+
+    $("#course-sidebar-toggle").click(function(){
+        $(".course-video-content").toggleClass('active');
+    });
+
 })(jQuery);

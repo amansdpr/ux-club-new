@@ -11,12 +11,8 @@
         margin-top: 20px;
     }*/
     .course-video.course-inner-page .course-page-heading {
-        padding-top: 29px;
-        padding-bottom: 29px;
-    }
-
-    .course-page-heading .site-btn {
-        font-size: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 
     .collapse-bt {
@@ -117,9 +113,9 @@
         text-align: center;
         padding: 40px 20px;
     }
-    .course-video.course-inner-page .container-fluid .row {
+/*    .course-video.course-inner-page .container-fluid .row {
         flex-direction: column-reverse;
-    }
+    }*/
     .course-inner-page .embed-responsive {
         width: 100%;
     }
@@ -293,6 +289,11 @@
     .payment-gatway .try-thisfield {
         margin-top: 25px;
     }
+    .course-video.course-inner-page .course-page-heading {
+        padding: 10px 20px 10px 10px;
+        height: 60px;
+    }
+
 }
 
 @media (max-width: 575px) {
