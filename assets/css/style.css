@@ -2130,13 +2130,6 @@ header.header-area.scrolled {
     border-color: transparent;
 }
 
-.course-video.course-inner-page .course-video-content {
-    margin: 0;
-    background: #F6F6F6;
-    height: 450px;
-    overflow-y: scroll;
-}
-
 .course-video.course-inner-page .panel {
     margin: 0;
     padding: 0;
@@ -2385,8 +2378,11 @@ section.course-video.course-inner-page .col-md-9 {
 }
 
 .course-video.course-inner-page .course-video-content {
-    height: 550px;
+    height: calc(100vh - 60px);
+    margin: 0;
     margin-left: -15px;
+    background: #F6F6F6;
+    overflow-y: scroll;
 }
 
 
